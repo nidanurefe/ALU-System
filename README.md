@@ -3,22 +3,22 @@
 
 ## Modules
 1. Register Module (Register.v)
- - This module implements a generic register with configurable functionalities such as decrement, increment, load, clear, write low, write high, and sign extension.
+This module implements a generic register with configurable functionalities such as decrement, increment, load, clear, write low, write high, and sign extension.
 
 2. Register File (RegisterFile.v)
- -The Register File module acts as a collection of registers and scratch registers. It allows reading from and writing to specific registers based on control signals.
+The Register File module acts as a collection of registers and scratch registers. It allows reading from and writing to specific registers based on control signals.
 
 3.Instruction Register (InstructionRegister.v)
- - This module implements an Instruction Register that stores instruction data and can load data into appropriate bytes during write operations.
+This module implements an Instruction Register that stores instruction data and can load data into appropriate bytes during write operations.
 
 4.Address Register File (AddressRegisterFile.v)
- - The Address Register File module manages address-related operations, including reading from and writing to specific address registers.
+The Address Register File module manages address-related operations, including reading from and writing to specific address registers.
 
 5. Arithmetic Logic Unit (ArithmeticLogicUnit.v)
- - The Arithmetic Logic Unit (ALU) performs arithmetic and logical operations based on control signals and input data.
+The Arithmetic Logic Unit (ALU) performs arithmetic and logical operations based on control signals and input data.
 
 6.Arithmetic Logic Unit System (ArithmeticLogicUnitSystem.v)
- - This top-level module integrates the aforementioned modules to create a functioning Arithmetic Logic Unit (ALU) system.
+This top-level module integrates the aforementioned modules to create a functioning Arithmetic Logic Unit (ALU) system.
 
 ## Usage
 - Clone the repository to your local machine.
