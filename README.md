@@ -3,12 +3,6 @@
 
 ## Modules
 
-Here's a README file for your Verilog code:
-
-Verilog Code Overview
-This repository contains Verilog code for various modules used in a computer system. Each module serves a specific purpose and is interconnected to form a functional computer system.
-
-Modules
 1. Register Module (Register.v)
 This module implements a generic register with configurable functionalities such as decrement, increment, load, clear, write low, write high, and sign extension.
 
